@@ -1,0 +1,6 @@
+elements\Dropdown.class
+elements\Locator.class
+objects\Converter.class
+elements\Input.class
+objects\Page.class
+elements\Text.class

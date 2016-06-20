@@ -1,0 +1,80 @@
+{
+  "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
+  "data" : [ {
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "time" : {
+      "start" : 1466411212387,
+      "stop" : 1466411219464,
+      "duration" : 7077
+    },
+    "name" : "total",
+    "type" : "TOTAL"
+  }, {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 0,
+      "message" : "There are no defects!",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Master suite : Test",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "RUB to EUR",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "RUB to USD",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "USD to RUB",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}

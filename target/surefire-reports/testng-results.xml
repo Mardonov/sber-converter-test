@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Master suite" duration-ms="26906" started-at="2016-06-20T08:26:33Z" finished-at="2016-06-20T08:27:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26906" started-at="2016-06-20T08:26:33Z" finished-at="2016-06-20T08:27:00Z">
+      <class name="tests.Test1">
+        <test-method status="PASS" signature="factoryMode()[pri:0, instance:tests.Test1@1cb7936c]" name="factoryMode" is-config="true" duration-ms="53" started-at="2016-06-20T11:26:33Z" finished-at="2016-06-20T11:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- factoryMode -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Test1@1cb7936c]" name="setUp" is-config="true" duration-ms="18350" started-at="2016-06-20T11:26:33Z" finished-at="2016-06-20T11:26:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:tests.Test1@1cb7936c]" name="test1" duration-ms="4315" started-at="2016-06-20T11:26:52Z" finished-at="2016-06-20T11:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:tests.Test1@1cb7936c]" name="test2" duration-ms="1440" started-at="2016-06-20T11:26:56Z" finished-at="2016-06-20T11:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:tests.Test1@1cb7936c]" name="test3" duration-ms="1438" started-at="2016-06-20T11:26:58Z" finished-at="2016-06-20T11:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.Test1@1cb7936c]" name="tearDownClass" is-config="true" duration-ms="1225" started-at="2016-06-20T11:26:59Z" finished-at="2016-06-20T11:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:tests.Test1@1cb7936c]" name="tearDownSuite" is-config="true" duration-ms="1" started-at="2016-06-20T11:27:01Z" finished-at="2016-06-20T11:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- tests.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Master suite -->
+</testng-results>

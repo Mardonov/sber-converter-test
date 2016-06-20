@@ -1,0 +1,116 @@
+{
+  "uid" : "8cb81e3550dced3e",
+  "name" : "test3",
+  "title" : "Test 3",
+  "time" : {
+    "start" : 1466411218034,
+    "stop" : 1466411219464,
+    "duration" : 1430
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Выполняется проверка работы 3",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3333bdb65a2836a5",
+    "name" : "Master suite : Test",
+    "title" : "Master suite : Test"
+  },
+  "steps" : [ {
+    "name" : "setFromDropdown[RUB]",
+    "title" : "Выбор валюты RUB в списке валют для \"Поменять\".",
+    "time" : {
+      "start" : 1466411218383,
+      "stop" : 1466411218830,
+      "duration" : 447
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setToDropdown[EUR]",
+    "title" : "Выбор валюты EUR в списке валют для \"На\".",
+    "time" : {
+      "start" : 1466411218831,
+      "stop" : 1466411219348,
+      "duration" : 517
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getCurrencyRateToValue2",
+    "title" : "Получение значения валюты для курса \"На\".",
+    "time" : {
+      "start" : 1466411219350,
+      "stop" : 1466411219435,
+      "duration" : 85
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getTestCurrencyRateToValue[0.0132, 1.32]",
+    "title" : "Проверка получени значения валюты для курса \"На\".",
+    "time" : {
+      "start" : 1466411219463,
+      "stop" : 1466411219463,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Master suite : Test"
+  }, {
+    "name" : "story",
+    "value" : "Проверка 3"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "RUB to EUR"
+  }, {
+    "name" : "thread",
+    "value" : "14088@atc-2614.pool-1-thread-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Master suite : Test"
+  }, {
+    "name" : "host",
+    "value" : "atc-2614"
+  } ],
+  "parameters" : [ ]
+}

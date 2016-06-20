@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="C:\Автотесты\sber-converter-test/src/test/resources/environment.properties" todir="C:\Автотесты\sber-converter-test/target/allure-results" overwrite="true"/>
+</target>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master suite">
+    <test verbose="2" name="Test" annotations="JDK" preserve-order="true" parallel="classes" thread-count="3">
+        <classes>
+            <class name="tests.Test1"/>
+            <!--class name="tests.Test2"/>
+            <class name="tests.Test3"/-->
+        </classes>
+    </test>
+</suite>

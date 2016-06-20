@@ -1,0 +1,131 @@
+{
+  "uid" : "64abc7f57cf64561",
+  "name" : "test1",
+  "title" : "Test 1",
+  "time" : {
+    "start" : 1466411212387,
+    "stop" : 1466411216578,
+    "duration" : 4191
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Выполняется проверка работы",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3333bdb65a2836a5",
+    "name" : "Master suite : Test",
+    "title" : "Master suite : Test"
+  },
+  "steps" : [ {
+    "name" : "setFromDropdown[USD]",
+    "title" : "Выбор валюты USD в списке валют для \"Поменять\".",
+    "time" : {
+      "start" : 1466411214602,
+      "stop" : 1466411215825,
+      "duration" : 1223
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setToDropdown[RUB]",
+    "title" : "Выбор валюты RUB в списке валют для \"На\".",
+    "time" : {
+      "start" : 1466411215831,
+      "stop" : 1466411216363,
+      "duration" : 532
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getCurrencyRateToValue2",
+    "title" : "Получение значения валюты для курса \"На\".",
+    "time" : {
+      "start" : 1466411216376,
+      "stop" : 1466411216449,
+      "duration" : 73
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getCurrencyRateToValue2",
+    "title" : "Получение значения валюты для курса \"На\".",
+    "time" : {
+      "start" : 1466411216450,
+      "stop" : 1466411216545,
+      "duration" : 95
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getTestCurrencyRateToValue[61.9500, 6 195.00]",
+    "title" : "Проверка получени значения валюты для курса \"На\".",
+    "time" : {
+      "start" : 1466411216569,
+      "stop" : 1466411216575,
+      "duration" : 6
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Master suite : Test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "USD to RUB"
+  }, {
+    "name" : "story",
+    "value" : "Проверка"
+  }, {
+    "name" : "thread",
+    "value" : "14088@atc-2614.pool-1-thread-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "Master suite : Test"
+  }, {
+    "name" : "host",
+    "value" : "atc-2614"
+  } ],
+  "parameters" : [ ]
+}

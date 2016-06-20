@@ -1,0 +1,105 @@
+{
+  "features" : [ {
+    "title" : "USD to RUB",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "f556fdfea0138610",
+      "title" : "Проверка",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "64abc7f57cf64561",
+        "name" : "test1",
+        "title" : "Test 1",
+        "time" : {
+          "start" : 1466411212387,
+          "stop" : 1466411216578,
+          "duration" : 4191
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "RUB to USD",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "54575c908ed3e34c",
+      "title" : "Проверка 2",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "a1142af187759e2a",
+        "name" : "test2",
+        "title" : "Test 2",
+        "time" : {
+          "start" : 1466411216583,
+          "stop" : 1466411218023,
+          "duration" : 1440
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "RUB to EUR",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "62619bbe2ed9bcc5",
+      "title" : "Проверка 3",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "8cb81e3550dced3e",
+        "name" : "test3",
+        "title" : "Test 3",
+        "time" : {
+          "start" : 1466411218034,
+          "stop" : 1466411219464,
+          "duration" : 1430
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

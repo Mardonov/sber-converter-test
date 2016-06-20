@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1466411193833" stop="1466411220935" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Master suite : Test</name>
+    <title>Master suite : Test</title>
+    <test-cases>
+        <test-case start="1466411212387" stop="1466411216578" status="passed">
+            <name>test1</name>
+            <description type="text">Выполняется проверка работы</description>
+            <steps>
+                <step start="1466411214602" stop="1466411215825" status="passed">
+                    <name>setFromDropdown[USD]</name>
+                    <title>Выбор валюты USD в списке валют для "Поменять".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466411215831" stop="1466411216363" status="passed">
+                    <name>setToDropdown[RUB]</name>
+                    <title>Выбор валюты RUB в списке валют для "На".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466411216376" stop="1466411216449" status="passed">
+                    <name>getCurrencyRateToValue2</name>
+                    <title>Получение значения валюты для курса "На".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466411216450" stop="1466411216545" status="passed">
+                    <name>getCurrencyRateToValue2</name>
+                    <title>Получение значения валюты для курса "На".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466411216569" stop="1466411216575" status="passed">
+                    <name>getTestCurrencyRateToValue[61.9500, 6 195.00]</name>
+                    <title>Проверка получени значения валюты для курса "На".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Проверка"/>
+                <label name="feature" value="USD to RUB"/>
+                <label name="host" value="atc-2614"/>
+                <label name="thread" value="14088@atc-2614.pool-1-thread-1(12)"/>
+            </labels>
+        </test-case>
+        <test-case start="1466411216583" stop="1466411218023" status="passed">
+            <name>test2</name>
+            <description type="text">Выполняется проверка работы 2</description>
+            <steps>
+                <step start="1466411216924" stop="1466411217382" status="passed">
+                    <name>setFromDropdown[RUB]</name>
+                    <title>Выбор валюты RUB в списке валют для "Поменять".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466411217384" stop="1466411217895" status="passed">
+                    <name>setToDropdown[USD]</name>
+                    <title>Выбор валюты USD в списке валют для "На".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466411217898" stop="1466411217998" status="passed">
+                    <name>getCurrencyRateToValue2</name>
+                    <title>Получение значения валюты для курса "На".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466411218023" stop="1466411218023" status="passed">
+                    <name>getTestCurrencyRateToValue[0.0149, 1.49]</name>
+                    <title>Проверка получени значения валюты для курса "На".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Проверка 2"/>
+                <label name="feature" value="RUB to USD"/>
+                <label name="host" value="atc-2614"/>
+                <label name="thread" value="14088@atc-2614.pool-1-thread-1(12)"/>
+            </labels>
+        </test-case>
+        <test-case start="1466411218034" stop="1466411219464" status="passed">
+            <name>test3</name>
+            <description type="text">Выполняется проверка работы 3</description>
+            <steps>
+                <step start="1466411218383" stop="1466411218830" status="passed">
+                    <name>setFromDropdown[RUB]</name>
+                    <title>Выбор валюты RUB в списке валют для "Поменять".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466411218831" stop="1466411219348" status="passed">
+                    <name>setToDropdown[EUR]</name>
+                    <title>Выбор валюты EUR в списке валют для "На".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466411219350" stop="1466411219435" status="passed">
+                    <name>getCurrencyRateToValue2</name>
+                    <title>Получение значения валюты для курса "На".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466411219463" stop="1466411219463" status="passed">
+                    <name>getTestCurrencyRateToValue[0.0132, 1.32]</name>
+                    <title>Проверка получени значения валюты для курса "На".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Проверка 3"/>
+                <label name="feature" value="RUB to EUR"/>
+                <label name="host" value="atc-2614"/>
+                <label name="thread" value="14088@atc-2614.pool-1-thread-1(12)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

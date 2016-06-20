@@ -1,0 +1,42 @@
+{
+  "hosts" : [ {
+    "title" : "atc-2614",
+    "threads" : [ {
+      "title" : "14088@atc-2614.pool-1-thread-1(12)",
+      "testCases" : [ {
+        "uid" : "64abc7f57cf64561",
+        "name" : "test1",
+        "title" : "Test 1",
+        "time" : {
+          "start" : 1466411212387,
+          "stop" : 1466411216578,
+          "duration" : 4191
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a1142af187759e2a",
+        "name" : "test2",
+        "title" : "Test 2",
+        "time" : {
+          "start" : 1466411216583,
+          "stop" : 1466411218023,
+          "duration" : 1440
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8cb81e3550dced3e",
+        "name" : "test3",
+        "title" : "Test 3",
+        "time" : {
+          "start" : 1466411218034,
+          "stop" : 1466411219464,
+          "duration" : 1430
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

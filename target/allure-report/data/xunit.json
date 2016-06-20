@@ -1,0 +1,60 @@
+{
+  "time" : {
+    "start" : 1466411212387,
+    "stop" : 1466411219464,
+    "duration" : 7077
+  },
+  "testSuites" : [ {
+    "uid" : "3333bdb65a2836a5",
+    "name" : "Master suite : Test",
+    "title" : "Master suite : Test",
+    "time" : {
+      "start" : 1466411212387,
+      "stop" : 1466411219464,
+      "duration" : 7077
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "64abc7f57cf64561",
+      "name" : "test1",
+      "title" : "Test 1",
+      "time" : {
+        "start" : 1466411212387,
+        "stop" : 1466411216578,
+        "duration" : 4191
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a1142af187759e2a",
+      "name" : "test2",
+      "title" : "Test 2",
+      "time" : {
+        "start" : 1466411216583,
+        "stop" : 1466411218023,
+        "duration" : 1440
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "8cb81e3550dced3e",
+      "name" : "test3",
+      "title" : "Test 3",
+      "time" : {
+        "start" : 1466411218034,
+        "stop" : 1466411219464,
+        "duration" : 1430
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

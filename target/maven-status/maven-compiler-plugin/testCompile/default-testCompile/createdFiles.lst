@@ -1,0 +1,4 @@
+utils\PropertyManager.class
+utils\AllureScreenshotListener.class
+tests\Test1.class
+tests\TestNGBase.class
